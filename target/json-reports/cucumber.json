@@ -1,0 +1,1184 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T20:02:14.589Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3901000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar",
+        "description": "",
+        "id": "amazonda-urun-arama;tc07-kullanici-amazonda-dropdown-ve-aramakutusu-kullanarak-arama-yapar;test-verileri;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MSTFs-MBP\u0027, ip: \u0027192.168.1.39\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: driver.version: Driver\nremote stacktrace: 0   chromedriver                        0x00000001040d21b9 chromedriver + 4911545\n1   chromedriver                        0x0000000104071e03 chromedriver + 4517379\n2   chromedriver                        0x0000000103cdfc36 chromedriver + 773174\n3   chromedriver                        0x0000000103ccf519 chromedriver + 705817\n4   chromedriver                        0x0000000103c3b349 chromedriver + 99145\n5   chromedriver                        0x0000000103c37d6f chromedriver + 85359\n6   chromedriver                        0x0000000103c66716 chromedriver + 276246\n7   chromedriver                        0x0000000103c63723 chromedriver + 263971\n8   chromedriver                        0x0000000103c3d720 chromedriver + 108320\n9   chromedriver                        0x0000000103c3e693 chromedriver + 112275\n10  chromedriver                        0x000000010409af72 chromedriver + 4685682\n11  chromedriver                        0x00000001040a8b3a chromedriver + 4741946\n12  chromedriver                        0x00000001040a8801 chromedriver + 4741121\n13  chromedriver                        0x000000010407e25e chromedriver + 4567646\n14  chromedriver                        0x00000001040a9061 chromedriver + 4743265\n15  chromedriver                        0x000000010408fd0a chromedriver + 4640010\n16  chromedriver                        0x00000001040c20ba chromedriver + 4845754\n17  chromedriver                        0x00000001040d8387 chromedriver + 4936583\n18  libsystem_pthread.dylib             0x00007fff70fde109 _pthread_start + 148\n19  libsystem_pthread.dylib             0x00007fff70fd9b8b thread_start + 15\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat utilities.Driver.getDriver(Driver.java:29)\n\tat stepdefinitions.Hooks.tearDown(Hooks.java:21)\n",
+              "duration": 98599626000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.AmazonStepDefinitions\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:135)\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:121)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:67)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:832)\nCaused by: java.lang.reflect.InvocationTargetException\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:129)\n\t... 39 more\nCaused by: org.openqa.selenium.WebDriverException: chrome not reachable\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MSTFs-MBP\u0027, ip: \u0027192.168.1.39\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: driver.version: Driver\nremote stacktrace: 0   chromedriver                        0x000000010f3b61b9 chromedriver + 4911545\n1   chromedriver                        0x000000010f355e03 chromedriver + 4517379\n2   chromedriver                        0x000000010efc3c36 chromedriver + 773174\n3   chromedriver                        0x000000010efb3519 chromedriver + 705817\n4   chromedriver                        0x000000010ef1f349 chromedriver + 99145\n5   chromedriver                        0x000000010ef1bd6f chromedriver + 85359\n6   chromedriver                        0x000000010ef4a716 chromedriver + 276246\n7   chromedriver                        0x000000010ef47723 chromedriver + 263971\n8   chromedriver                        0x000000010ef21720 chromedriver + 108320\n9   chromedriver                        0x000000010ef22693 chromedriver + 112275\n10  chromedriver                        0x000000010f37ef72 chromedriver + 4685682\n11  chromedriver                        0x000000010f38cb3a chromedriver + 4741946\n12  chromedriver                        0x000000010f38c801 chromedriver + 4741121\n13  chromedriver                        0x000000010f36225e chromedriver + 4567646\n14  chromedriver                        0x000000010f38d061 chromedriver + 4743265\n15  chromedriver                        0x000000010f373d0a chromedriver + 4640010\n16  chromedriver                        0x000000010f3a60ba chromedriver + 4845754\n17  chromedriver                        0x000000010f3bc387 chromedriver + 4936583\n18  libsystem_pthread.dylib             0x00007fff70fde109 _pthread_start + 148\n19  libsystem_pthread.dylib             0x00007fff70fd9b8b thread_start + 15\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat utilities.Driver.getDriver(Driver.java:29)\n\tat pages.AmazonPage.\u003cinit\u003e(AmazonPage.java:8)\n\tat stepdefinitions.AmazonStepDefinitions.\u003cinit\u003e(AmazonStepDefinitions.java:9)\n\t... 45 more\n",
+              "duration": 108515140000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "kullanici \"http://amazon.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://amazon.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "kullanici dropdownda \"Automotive\" secer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automotive\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_dropdownda_secer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "kullanici aramakutusuna \"phone holder\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"phone holder\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@birdenfazlaexample"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:05:41.759Z",
+        "before": [
+          {
+            "result": {
+              "duration": 98000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar",
+        "description": "",
+        "id": "amazonda-urun-arama;tc07-kullanici-amazonda-dropdown-ve-aramakutusu-kullanarak-arama-yapar;test-verileri;3",
+        "after": [
+          {
+            "result": {
+              "duration": 29397592000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 58124200000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"http://amazon.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://amazon.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16320361000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici dropdownda \"Baby\" secer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Baby\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_dropdownda_secer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16747713000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici aramakutusuna \"stroller\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"stroller\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75630000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@birdenfazlaexample"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:07:42.449Z",
+        "before": [
+          {
+            "result": {
+              "duration": 97000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar",
+        "description": "",
+        "id": "amazonda-urun-arama;tc07-kullanici-amazonda-dropdown-ve-aramakutusu-kullanarak-arama-yapar;test-verileri;4",
+        "after": [
+          {
+            "result": {
+              "duration": 663206000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11207792000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"http://amazon.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://amazon.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 773465000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici dropdownda \"Books\" secer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Books\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_dropdownda_secer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16861690000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici aramakutusuna \"Miserables\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Miserables\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3931013000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@birdenfazlaexample"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "Amazonda Urun Arama",
+    "description": "",
+    "id": "amazonda-urun-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazonexamples.feature",
+    "tags": [
+      {
+        "name": "@birdenfazlaexample",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 21
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "oncesinde caliacak methodlar",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2355471000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:08:15.896Z",
+        "before": [
+          {
+            "result": {
+              "duration": 85000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "TC02_kullanici amazonda arama yapar",
+        "description": "",
+        "id": "amazon-arama;tc02-kullanici-amazonda-arama-yapar",
+        "after": [
+          {
+            "result": {
+              "duration": 3340207000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18722171000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici aramakutusuna headphones yazar ve arar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_headphones_yazar_ve_arar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149898000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@urunarama"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "oncesinde caliacak methodlar",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14919936000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:08:40.471Z",
+        "before": [
+          {
+            "result": {
+              "duration": 63000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC03_kullanici amazonda arama yapar",
+        "description": "",
+        "id": "amazon-arama;tc03-kullanici-amazonda-arama-yapar",
+        "after": [
+          {
+            "result": {
+              "duration": 7537293000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25698168000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici aramakutusuna camera yazar ve arar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_camera_yazar_ve_arar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205359000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@urunarama"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@amazoncamera"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Arama",
+    "description": "",
+    "id": "amazon-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazonsearch.feature",
+    "tags": [
+      {
+        "name": "@urunarama",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T20:09:28.856Z",
+        "before": [
+          {
+            "result": {
+              "duration": 76000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "TC05_kullanici amazonda urun arar",
+        "description": "",
+        "id": "amazon-birden-fazla-arama;tc05-kullanici-amazonda-urun-arar;urun-isimleri;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1378743000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15306319000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55276514000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici aramakutusuna \"headphones\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"headphones\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8020926000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@teknolojikarama"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:10:48.848Z",
+        "before": [
+          {
+            "result": {
+              "duration": 80000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC05_kullanici amazonda urun arar",
+        "description": "",
+        "id": "amazon-birden-fazla-arama;tc05-kullanici-amazonda-urun-arar;urun-isimleri;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3002399000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29019180000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24381389000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici aramakutusuna \"camera\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"camera\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15736283000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@teknolojikarama"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:12:00.992Z",
+        "before": [
+          {
+            "result": {
+              "duration": 80000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC05_kullanici amazonda urun arar",
+        "description": "",
+        "id": "amazon-birden-fazla-arama;tc05-kullanici-amazonda-urun-arar;urun-isimleri;4",
+        "after": [
+          {
+            "result": {
+              "duration": 48396574000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19204751000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9984601000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici aramakutusuna \"drone\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"drone\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102195000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@teknolojikarama"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:13:18.687Z",
+        "before": [
+          {
+            "result": {
+              "duration": 67000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC05_kullanici amazonda urun arar",
+        "description": "",
+        "id": "amazon-birden-fazla-arama;tc05-kullanici-amazonda-urun-arar;urun-isimleri;5",
+        "after": [
+          {
+            "result": {
+              "duration": 21470659000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24351045000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67183544000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici aramakutusuna \"pencil\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pencil\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2784635000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@teknolojikarama"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:15:14.486Z",
+        "before": [
+          {
+            "result": {
+              "duration": 191000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC05_kullanici amazonda urun arar",
+        "description": "",
+        "id": "amazon-birden-fazla-arama;tc05-kullanici-amazonda-urun-arar;urun-isimleri;6",
+        "after": [
+          {
+            "result": {
+              "duration": 36998582000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9516592000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9872128000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici aramakutusuna \"tv\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tv\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33629000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@teknolojikarama"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Birden Fazla Arama",
+    "description": "",
+    "id": "amazon-birden-fazla-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/examples.feature",
+    "tags": [
+      {
+        "name": "@teknolojikarama",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T20:16:10.920Z",
+        "before": [
+          {
+            "result": {
+              "duration": 77000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC04_kullanici amazonda urun aramasi yapar",
+        "description": "",
+        "id": "amazon-urun-arama;tc04-kullanici-amazonda-urun-aramasi-yapar",
+        "after": [
+          {
+            "result": {
+              "duration": 4415600000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75513293000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26683316000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici aramakutusuna \"drone\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"drone\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60091000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@urunarama1"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Urun Arama",
+    "description": "",
+    "id": "amazon-urun-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/parametre.feature",
+    "tags": [
+      {
+        "name": "@urunarama1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+].AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat utilities.Driver.getDriver(Driver.java:29)\n\tat pages.AmazonPage.\u003cinit\u003e(AmazonPage.java:8)\n\tat stepdefinitions.AmazonStepDefinitions.\u003cinit\u003e(AmazonStepDefinitions.java:9)\n\t... 45 more\n",
+              "duration": 82487216000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "kullanici walmart aramakutusuna \"flower\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"flower\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.kullanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WallmartStepDefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          }
+        ]
+      }
+    ],
+    "name": "Walmart Urun Arama",
+    "description": "",
+    "id": "walmart-urun-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/walmart.feature",
+    "tags": [
+      {
+        "name": "@walmart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

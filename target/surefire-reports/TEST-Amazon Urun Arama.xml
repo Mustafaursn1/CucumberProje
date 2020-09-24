@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Amazon Urun Arama" time="106.685" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="webdriver.chrome.driver" value="/Users/mstf/.m2/repository/webdriver/chromedriver/mac64/85.0.4183.87/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mstf/IdeaProjects/CucumberProje/target/test-classes:/Users/mstf/IdeaProjects/CucumberProje/target/classes:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/mstf/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mstf/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mstf/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mstf/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mstf/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mstf/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mstf/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mstf/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mstf/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/mstf/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/mstf/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/mstf/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/mstf/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/mstf/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/mstf/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/mstf/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/mstf/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/mstf/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mstf/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/mstf/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/mstf/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/mstf/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/mstf/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/mstf/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/mstf/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/mstf/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mstf/IdeaProjects/CucumberProje/target/surefire/surefirebooter14508090169558626425.jar /Users/mstf/IdeaProjects/CucumberProje/target/surefire 2020-09-24T22-01-54_682-jvmRun1 surefire13378239529241088381tmp surefire_010626381667019567821tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mstf/IdeaProjects/CucumberProje/target/test-classes:/Users/mstf/IdeaProjects/CucumberProje/target/classes:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/mstf/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/mstf/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mstf/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mstf/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mstf/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mstf/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mstf/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mstf/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mstf/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mstf/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/mstf/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/mstf/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/mstf/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/mstf/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/mstf/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/mstf/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/mstf/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/mstf/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/mstf/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mstf/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/mstf/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/mstf/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/mstf/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/mstf/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/mstf/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/mstf/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/mstf/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/mstf/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/mstf/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mstf"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mstf/IdeaProjects/CucumberProje"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/mstf/IdeaProjects/CucumberProje/target/surefire/surefirebooter14508090169558626425.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="14.0.1+14"/>
+    <property name="user.name" value="mstf"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/mstf/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/gk/52xktp41221dvj4qjzbxgbm80000gn/T/"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="/Users/mstf/IdeaProjects/CucumberProje"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/mstf/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="14.0.1+14"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="TC04_kullanici amazonda urun aramasi yapar" classname="Amazon Urun Arama" time="106.685">
+    <system-out><![CDATA[
+
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+
+&amp#27;[31mfile:///Users/mstf/IdeaProjects/CucumberProje/src/test/resources/features/amazonexamples.feature:10&amp#27;[0m
+# TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar
+
+
+
+11
+ Scenarios (
+&amp#27;[31m1 failed&amp#27;[0m
+, 
+&amp#27;[32m10 passed&amp#27;[0m
+)
+
+36
+ Steps (
+&amp#27;[31m1 failed&amp#27;[0m
+, 
+&amp#27;[36m3 skipped&amp#27;[0m
+, 
+&amp#27;[32m32 passed&amp#27;[0m
+)
+
+15m
+44,215s
+
+
+
+
+
+io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.AmazonStepDefinitions
+
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:135)
+
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:121)
+
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)
+
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Caused by: java.lang.reflect.InvocationTargetException
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:129)
+
+	... 39 more
+
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSTFs-MBP', ip: '192.168.1.39', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x000000010f3b61b9 chromedriver + 4911545
+1   chromedriver                        0x000000010f355e03 chromedriver + 4517379
+2   chromedriver                        0x000000010efc3c36 chromedriver + 773174
+3   chromedriver                        0x000000010efb3519 chromedriver + 705817
+4   chromedriver                        0x000000010ef1f349 chromedriver + 99145
+5   chromedriver                        0x000000010ef1bd6f chromedriver + 85359
+6   chromedriver                        0x000000010ef4a716 chromedriver + 276246
+7   chromedriver                        0x000000010ef47723 chromedriver + 263971
+8   chromedriver                        0x000000010ef21720 chromedriver + 108320
+9   chromedriver                        0x000000010ef22693 chromedriver + 112275
+10  chromedriver                        0x000000010f37ef72 chromedriver + 4685682
+11  chromedriver                        0x000000010f38cb3a chromedriver + 4741946
+12  chromedriver                        0x000000010f38c801 chromedriver + 4741121
+13  chromedriver                        0x000000010f36225e chromedriver + 4567646
+14  chromedriver                        0x000000010f38d061 chromedriver + 4743265
+15  chromedriver                        0x000000010f373d0a chromedriver + 4640010
+16  chromedriver                        0x000000010f3a60ba chromedriver + 4845754
+17  chromedriver                        0x000000010f3bc387 chromedriver + 4936583
+18  libsystem_pthread.dylib             0x00007fff70fde109 _pthread_start + 148
+19  libsystem_pthread.dylib             0x00007fff70fd9b8b thread_start + 15
+
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+
+	at utilities.Driver.getDriver(Driver.java:29)
+
+	at pages.AmazonPage.<init>(AmazonPage.java:8)
+
+	at stepdefinitions.AmazonStepDefinitions.<init>(AmazonStepDefinitions.java:9)
+
+	... 45 more
+
+
+
+org.openqa.selenium.WebDriverException: chrome not reachable
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSTFs-MBP', ip: '192.168.1.39', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x00000001040d21b9 chromedriver + 4911545
+1   chromedriver                        0x0000000104071e03 chromedriver + 4517379
+2   chromedriver                        0x0000000103cdfc36 chromedriver + 773174
+3   chromedriver                        0x0000000103ccf519 chromedriver + 705817
+4   chromedriver                        0x0000000103c3b349 chromedriver + 99145
+5   chromedriver                        0x0000000103c37d6f chromedriver + 85359
+6   chromedriver                        0x0000000103c66716 chromedriver + 276246
+7   chromedriver                        0x0000000103c63723 chromedriver + 263971
+8   chromedriver                        0x0000000103c3d720 chromedriver + 108320
+9   chromedriver                        0x0000000103c3e693 chromedriver + 112275
+10  chromedriver                        0x000000010409af72 chromedriver + 4685682
+11  chromedriver                        0x00000001040a8b3a chromedriver + 4741946
+12  chromedriver                        0x00000001040a8801 chromedriver + 4741121
+13  chromedriver                        0x000000010407e25e chromedriver + 4567646
+14  chromedriver                        0x00000001040a9061 chromedriver + 4743265
+15  chromedriver                        0x000000010408fd0a chromedriver + 4640010
+16  chromedriver                        0x00000001040c20ba chromedriver + 4845754
+17  chromedriver                        0x00000001040d8387 chromedriver + 4936583
+18  libsystem_pthread.dylib             0x00007fff70fde109 _pthread_start + 148
+19  libsystem_pthread.dylib             0x00007fff70fd9b8b thread_start + 15
+
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+
+	at utilities.Driver.getDriver(Driver.java:29)
+
+	at stepdefinitions.Hooks.tearDown(Hooks.java:21)
+
+
+
+
+
+setUp ��al����t��.
+1-48 of over 3,000 results for "drone"
+tearDown ��al����t��.
+]]></system-out>
+  </testcase>
+</testsuite>
